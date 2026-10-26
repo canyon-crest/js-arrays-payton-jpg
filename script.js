@@ -20,7 +20,7 @@
 let colors = ["red", "green", "blue"];
 
 
-}
+
 // STEP 2: Use a for loop to print each color.
 //         Each line should say exactly:
 //         "Color: red"
@@ -30,6 +30,7 @@ let colors = ["red", "green", "blue"];
 
 for (let i = 0; i < colors.length; i++) {
   console.log("Color: " + colors[i]);
+}
 // ============================================
 //  MAIN: Number Analyzer
 // ============================================
@@ -66,6 +67,8 @@ for (let i = 0; i < numbers.length; i++) {
     yourString += ", ";
   }
 }
+console.log("Numbers: " + yourString);
+
 // STEP 6: Calculate the sum of all numbers.
 //         Use a for loop to add each number to a running total.
 //         Print: console.log("Sum: " + sum)
@@ -104,4 +107,4 @@ for (let i = 1; i < numbers.length; i++) {
     largest = numbers[i];
   }
 }
-console.log("Largest: " + largest); }
+console.log("Largest: " + largest);
